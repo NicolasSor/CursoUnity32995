@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5711233583394427100}
   - component: {fileID: 5711233583394427101}
   - component: {fileID: 5711233583394426914}
-  - component: {fileID: -402988115821574586}
+  - component: {fileID: 4448112343467940779}
   m_Layer: 0
   m_Name: CannonBall
   m_TagString: Untagged
@@ -98,7 +98,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-402988115821574586
+--- !u!114 &4448112343467940779
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,9 +107,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5711233583394426915}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27f6d7a329fce7841ba7ded5e39d2d4b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6257f1c2d325fa54582fb00cb0d88b74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 3
   bulletDamage: 10
+  timeToDestroy: 3
   bulletDirection: {x: 0, y: 0, z: 1}
